@@ -18,7 +18,7 @@ This project is designed to create chainages for projects utilising ArcGIS 10.x 
     |   |   +-- testline.shp
  
 
-** create_chainages.tbx:**
+**create_chainages.tbx:**
 
 This ArcGIS toolbox acts as the interface for this project. In order to use this tool, you will need to have [ESRI's ArcGIS Desktop](http://www.esri.com/software/arcgis/arcgis-for-desktop) installed. For more information regarding the use of an ArcToolbox, please visit ["Using the ArcToolbox window"](http://resources.arcgis.com/EN/HELP/MAIN/10.2/index.html#//003q0000001m000000).
 
@@ -30,7 +30,7 @@ This module is the main module for this project. This module pulls in the functi
 
 This folder contains modules to assist in compiling chainages from polylines.
 
-+ ** create_chainages.py 
++ **create_chainages.py 
 
     This module contains the functions to compile the chainages from polylines.
 
@@ -53,7 +53,7 @@ In order to run this project the following is required:
 3. Open ArcGis Desktop 10.x session.
 4. Once ArcGis Desktop is open, Open ArcToolbox.
 5. Once the ArcToolbox window/tab has open, add the create_chainages.tbx from this project.
-6. The toolboxes help documentation has been populated with information to assist in the tools use.
+6. # TODO The toolboxes help documentation has been populated with information to assist in the tools use.
 
 ### How to use the test data
 
@@ -65,5 +65,5 @@ In order to run this project the following is required:
 
 ### Final set up
 
-# TODO
+1. # TODO
 
