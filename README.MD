@@ -14,7 +14,7 @@ This project is designed to create chainages for projects utilising ArcGIS 10.x 
     |   +-- _modules
     |   |   +-- __init__.py
     |   |   +-- create_chainages.py
-    |   +-- _testData
+    |   +-- _test_data
     |   |   +-- testline.shp
  
 
