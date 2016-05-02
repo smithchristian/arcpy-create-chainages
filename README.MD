@@ -30,7 +30,7 @@ This module is the main module for this project. This module pulls in the functi
 
 This folder contains modules to assist in compiling chainages from polylines.
 
-+ **create_chainages.py 
++ **create_chainages.py**
 
     This module contains the functions to compile the chainages from polylines.
 
