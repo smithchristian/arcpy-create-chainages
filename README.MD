@@ -4,18 +4,18 @@ This project is designed to create chainages for projects utilising ArcGIS 10.x 
 
 ### Description of Project Contents
 
- create-chainage
- |   +-- create_chainages.tbx
- |   +-- .gitignore
- |   +-- __init__.py
- |   +-- LICENCE.TXT
- |   +-- main.py
- |   +-- README.MD
- |   +-- _modules
- |   |   +-- __init__.py
- |   |   +-- create_chainages.py
- |   +-- _testData
- |   |   +-- testline.shp
+    create-chainage
+    |   +-- create_chainages.tbx
+    |   +-- .gitignore
+    |   +-- __init__.py
+    |   +-- LICENCE.TXT
+    |   +-- main.py
+    |   +-- README.MD
+    |   +-- _modules
+    |   |   +-- __init__.py
+    |   |   +-- create_chainages.py
+    |   +-- _testData
+    |   |   +-- testline.shp
  
 
 ** create_chainages.tbx:**
