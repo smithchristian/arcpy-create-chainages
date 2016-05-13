@@ -56,6 +56,7 @@ In order to run this project the following is required:
 6. The toolboxes help documentation has been populated with information to assist in the tools useage.
 
 ### Usage
++ Currently this script is limited to ArcGIS for Desktop Advanced users only.
 + Polylines must be projected in to an appropriate coordinate reference system
 + Polylines must contain a text field called "Name". This field contains the name for each feature.
 + Currently this script will always start 0 chainage at the start of the line. It does not does not facilitate offsetting the start change value.
