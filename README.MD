@@ -53,22 +53,22 @@ In order to run this project the following is required:
 3. Open ArcGis Desktop 10.x session.
 4. Once ArcGis Desktop is open, Open ArcToolbox.
 5. Once the ArcToolbox window/tab has open, add the create_chainages.tbx from this project.
-6. # The toolboxes help documentation has been populated with information to assist in the tools useage.
+6. The toolboxes help documentation has been populated with information to assist in the tools useage.
 
 ### Usage
 + Polylines must be projected in to an appropriate coordinate reference system
 + Polylines must contain a text field called "Name". This field contains the name for each feature.
-+ Currently this script will always start 0 chainage at the start of the line. It does not does not facilitate offsetting the start change value at the beginning of the line.
++ Currently this script will always start 0 chainage at the start of the line. It does not does not facilitate offsetting the start change value.
 + Testing has only been carried out on coordinate reference system in meters.
-+ Testing of interval ranges have been conducted from 0.1m up to 20m.
++ Testing of interval ranges has been conducted from 0.1m up to 20m.
 
 ### How to use the test data
 
 1. Open ArcGIS Desktop 10.x.
 2. Open ArcToolbox.
 3. If the Create Chainage toolbox is not present, follow the installation steps, then open the Create Chainage tool.
-4. When the Create Chainage window appears, populate the “Input Polyline Feature Class” field, with the shapefile located here: \create_chainages\test_data\testline.shp”.
-5. In the “Output Location” field, you can either specify your own output folder or use this location “\create_chainages\test_data”.
-6. In the “Distance (m) Between Points” field, enter an appropriate interval/distance between chainages.
-7. Click “Ok”.
-8. When the tool has finished processing, a new .gdb will be created here “\create_chainages\test_data” containing the following outputs: original polyline(s), chainages and a copy of the original polyline(s) but as a measured route.
+4. When the Create Chainage window appears, populate the â€œInput Polyline Feature Classâ€ field, with the shapefile located here: \create_chainages\test_data\testline.shpâ€.
+5. In the â€œOutput Locationâ€ field, you can either specify your own output folder or use this location â€œ\create_chainages\test_dataâ€.
+6. In the â€œDistance (m) Between Pointsâ€ field, enter an appropriate interval/distance between chainages.
+7. Click â€œOkâ€.
+8. When the tool has finished processing, a new .gdb will be created here â€œ\create_chainages\test_dataâ€ containing the following outputs: original polyline(s), chainages and a copy of the original polyline(s) but as a measured route.
