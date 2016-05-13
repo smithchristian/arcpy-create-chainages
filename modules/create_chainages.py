@@ -159,11 +159,25 @@ def create_chainages(line_lyr, pnt_dist, db_output_location, fc_sr_discribe, db_
 
     for row in search_cursor:
 
-        for dist in range(0, int(row[0].length), int(pnt_dist)):
+        # TODO delete multi-line comments below when happy with code
+        '''
+        #interval_list = [x * float(pnt_dist) for x in range(0, (int(row[0].length)/pnt_dist))]
+        '''
+        interval_list = [x * float(pnt_dist) for x in range(0, int((row[0].length)/float(pnt_dist)+1))]
+
+        for dist in interval_list:
 
             point = row[0].positionAlongLine(dist).firstPoint
 
             insert_cursor.insertRow([point])
+
+        '''
+        for dist in range(0, int(row[0].length), float(pnt_dist)):
+
+            point = row[0].positionAlongLine(dist).firstPoint
+
+            insert_cursor.insertRow([point])
+        '''
 
     #    This is used to create points/chainages at specified distance
 
