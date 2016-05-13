@@ -71,4 +71,4 @@ In order to run this project the following is required:
 5. In the “Output Location” field, you can either specify your own output folder or use this location “\create_chainages\test_data”.
 6. In the “Distance (m) Between Points” field, enter an appropriate interval/distance between chainages.
 7. Click “Ok”.
-8. When the tool has finished processing, a new .gdb will be created here “\create_chainages\test_data” containing the following outputs: original polyline(s), chainages and a copy of the original polyline(s) but as a measured route.
+8. When the tool has finished processing, a new .gdb will be created in your specified output location containing the following outputs: original polyline(s), chainages and a copy of the original polyline(s) but as a measured route.
