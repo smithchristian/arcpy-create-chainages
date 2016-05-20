@@ -47,17 +47,7 @@ chainage_feature_class = "{0}_Chainages".format(new_fc_filepath)
 def main():
 
     try:
-        '''
-        arcpy.AddMessage(source_align_location)
-        arcpy.AddMessage(database_location)
-        arcpy.AddMessage(chainage_distance)
-        arcpy.AddMessage(new_fc_name)
-        arcpy.AddMessage(database_name)
-        arcpy.AddMessage(DATABASE_FLIEPATH)
-        arcpy.AddMessage(new_fc_filepath)
-        arcpy.AddMessage(new_fc_filepath_with_m)
-        arcpy.AddMessage(chainage_feature_class)
-        '''
+
         create_chainages.check_if_gdb_exist(DATABASE_FLIEPATH)
 
         create_chainages.create_gdb(database_location, database_name)
