@@ -41,7 +41,9 @@ def create_gdb(db_output_location, db_name):
         db_name -- Name of the gdb
     """
     arcpy.AddMessage(db_output_location)
+    
     arcpy.AddMessage(db_name)
+    
     arcpy.AddMessage("....Creating New Database")
     #    Prints message to screen
 
@@ -118,12 +120,6 @@ def create_chainages(line_lyr, pnt_dist, db_output_location, fc_sr_discribe, db_
         chainages_fc -- This is the output feature class to store the chainages
 
     """
-    arcpy.AddMessage(line_lyr)
-    arcpy.AddMessage(pnt_dist)
-    arcpy.AddMessage(db_output_location)
-    arcpy.AddMessage(fc_sr_discribe)
-    arcpy.AddMessage(db_filepath)
-    arcpy.AddMessage(chainage_fc)
 
     arcpy.AddMessage("....Creating points to split line")
     #    Prints message to screen
